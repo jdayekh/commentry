@@ -9,13 +9,6 @@
 import 'react-native-gesture-handler';
 import './global.js';
 
-// import {
-//   Colors,
-//   DebugInstructions,
-//   Header,
-//   LearnMoreLinks,
-//   ReloadInstructions,
-// } from 'react-native/Libraries/NewAppScreen';
 import React, {useEffect} from 'react';
 import {
   SafeAreaView,
@@ -29,23 +22,11 @@ import {
 
 import HomeScreen from './screens/HomeScreen';
 import Landing from './screens/Landing';
-// import { MomentProvider } from './MomentContext';
-import {
-  NavigationContainer
-} from '@react-navigation/native';
+import {NavigationContainer} from '@react-navigation/native';
 
 const App = ({navigation}) => {
-  return (
-   
-      // <NavigationContainer>
-      //     <HomeScreen navigation={navigation} />
-      // </NavigationContainer>
-
-      <Landing />
-      
-   
-  );
-}
+  return <Landing />;
+};
 export default App;
 
 const styles = StyleSheet.create({
