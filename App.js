@@ -20,7 +20,6 @@ import {
   useColorScheme,
 } from 'react-native';
 
-import HomeScreen from './screens/HomeScreen';
 import Landing from './screens/Landing';
 import {NavigationContainer} from '@react-navigation/native';
 
