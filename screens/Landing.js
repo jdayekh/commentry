@@ -18,9 +18,6 @@ const data = require('../assets/commentaries.json');
 
 const Landing = props => {
   let flatListRef = useRef(0);
-  const myRef = useRef(null);
-
-  const currentIndexRef = useRef(0);
 
   const [value, setValue] = React.useState(0);
   const [newValue, setNewValue] = React.useState(0);

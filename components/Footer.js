@@ -9,7 +9,7 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native';
-import React, {useContext, useEffect, useRef, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 import IonIcon from 'react-native-vector-icons/Ionicons';
 

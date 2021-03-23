@@ -9,15 +9,13 @@
 import 'react-native-gesture-handler';
 import './global.js';
 
-import React, {useEffect} from 'react';
+import Landing from './screens/Landing';
+import React from 'react';
 import {
   StyleSheet,
 } from 'react-native';
 
-import Landing from './screens/Landing';
-import {NavigationContainer} from '@react-navigation/native';
-
-const App = ({navigation}) => {
+const App = () => {
   return <Landing />;
 };
 export default App;
