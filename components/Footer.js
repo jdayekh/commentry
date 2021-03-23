@@ -1,17 +1,10 @@
 import '../global.js';
 
 import {
-  Animated,
   FlatList,
-  Image,
-  ImageBackground,
-  ListItem,
-  Platform,
   SafeAreaView,
-  ScrollView,
   StyleSheet,
   Text,
-  Toast,
   TouchableOpacity,
   TouchableWithoutFeedback,
   View,

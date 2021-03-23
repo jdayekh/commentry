@@ -11,13 +11,7 @@ import './global.js';
 
 import React, {useEffect} from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
-  Text,
-  View,
-  useColorScheme,
 } from 'react-native';
 
 import Landing from './screens/Landing';

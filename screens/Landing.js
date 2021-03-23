@@ -1,18 +1,11 @@
 import '../global.js';
 
 import {
-  AppRegistry,
-  Button,
-  Dimensions,
   FlatList,
-  Image,
   LogBox,
   SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
-  TextInput,
   TouchableOpacity,
   View,
 } from 'react-native';
